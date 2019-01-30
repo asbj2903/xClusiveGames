@@ -28,7 +28,7 @@ namespace xClusiveGames
 			InitializeComponent();
 		}
 
-		/*private void BTNCheckBoxRememberMe_Click(object sender, RoutedEventArgs e)
+        /*private void BTNCheckBoxRememberMe_Click(object sender, RoutedEventArgs e)
 		{
 			if (TickedBool == false)
 			{
@@ -42,25 +42,25 @@ namespace xClusiveGames
 			}
 		}*/
 
-		private void Button_Click(object sender, RoutedEventArgs e)
-		{
-			string TempAccName;
-			string TempPassName;
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string TempAccName;
+            string TempPassName;
 
-			TempAccName = TBAccount.Text;
-			TempPassName = TBPassword.Text;
+            TempAccName = TBAccount.Text;
+            TempPassName = TBPassword.Text;
 
             Account account = new Account(TempAccName, TempPassName);
-            
+
             if (TempAccName == "AdminBo" && TempPassName == "1234")
             {
-				GamesWindow NewWindow = new GamesWindow();
-				NewWindow.Show();
-				this.Close();
-			}
-		}
+                WindowOfGames NewWindow = new WindowOfGames();
+                NewWindow.Show();
+                this.Close();
+            }
+        }
 
-		private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
 		{
 			System.Diagnostics.Process.Start("http://google.com");
 		}
