@@ -12,9 +12,8 @@
           
           
           >
-        <Button x:Name="BTNCheckBoxRememberMe" Content="" HorizontalAlignment="Center" Margin="508,169,458.6,0" VerticalAlignment="Top" Width="27" RenderTransformOrigin="3.5,-1.156" Click="BTNCheckBoxRememberMe_Click" Height="22"/>
         <Label Content="ClusiveGames" HorizontalAlignment="Center" Margin="349,61,328.6,0" VerticalAlignment="Top" FontSize="36" FontFamily="Copperplate Gothic Bold" Foreground="White" Width="316"/>
-        <Button Content="FORGOT YOUR PASSWORD?" HorizontalAlignment="Center" Margin="326,196,333.6,0" VerticalAlignment="Top" Width="134" Background="#00FFFFFF" Foreground="White" FontSize="10" BorderBrush="#00FFFFFF" Height="22" Click="Button_Click_1"/>
+        <Button Content="FORGOT YOUR PASSWORD?" HorizontalAlignment="Center" Margin="421,196,438.6,0" VerticalAlignment="Top" Width="134" Background="#00FFFFFF" Foreground="White" FontSize="10" BorderBrush="#00FFFFFF" Height="22" Click="Button_Click_1"/>
         <Button Content="LOGIN" HorizontalAlignment="Center" Margin="259,223,283.6,0" VerticalAlignment="Top" Width="251" Height="43" RenderTransformOrigin="0.5,0.5" FontFamily="Copperplate Gothic Bold" FontSize="16" Foreground="White" Click="Button_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -36,10 +35,11 @@
                 </LinearGradientBrush>
             </Button.OpacityMask>
         </Button>
-        <TextBox x:Name="TBPassword" HorizontalAlignment="Center" Height="23" Margin="326,139,347.6,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="TBAccount" HorizontalAlignment="Center" Height="24" Margin="326,110,347.6,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="120" BorderBrush="#00FFFFFF"/>
-        <Label Content="REMEMBER ME" HorizontalAlignment="Center" Margin="326,167,389.6,0" VerticalAlignment="Top" Foreground="White" FontSize="10" RenderTransformOrigin="0.554,1.808"/>
+        <TextBox x:Name="TBPassword" HorizontalAlignment="Center" Height="23" Margin="326,139,347.6,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="120" MouseEnter="TBPassword_MouseEnter"/>
+        <TextBox x:Name="TBAccount" HorizontalAlignment="Center" Height="24" Margin="326,110,347.6,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="120" BorderBrush="#00FFFFFF" MouseEnter="TBAccount_MouseEnter"/>
+        <Label Content="REMEMBER ME" HorizontalAlignment="Center" Margin="421,167,494.6,0" VerticalAlignment="Top" Foreground="White" FontSize="10" RenderTransformOrigin="0.554,1.808"/>
         <Label Content="X" HorizontalAlignment="Center" Margin="322,61,616.6,0" VerticalAlignment="Top" FontSize="36" FontFamily="Copperplate Gothic Bold" Foreground="Red" Width="55"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="498,172,0,0" VerticalAlignment="Top" Height="19" Width="16"/>
 
 
     </Grid>
