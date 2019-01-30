@@ -50,7 +50,13 @@ namespace xClusiveGames
 			TempAccName = TBAccount.Text;
 			TempPassName = TBPassword.Text;
 
+            Account account = new Account(TempAccName, TempPassName);
+            A
 
+            if (TempAccName == "Bo" && TempPassName == "1234")
+            {
+
+            }
 		}
 
 		private void Button_Click_1(object sender, RoutedEventArgs e)
