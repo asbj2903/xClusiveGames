@@ -51,8 +51,7 @@ namespace xClusiveGames
 			TempPassName = TBPassword.Text;
 
             Account account = new Account(TempAccName, TempPassName);
-            A
-
+            
             if (TempAccName == "Bo" && TempPassName == "1234")
             {
 
