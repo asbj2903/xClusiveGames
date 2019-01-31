@@ -7,7 +7,73 @@
         mc:Ignorable="d"
         Title="PopUpWindow" Height="450" Width="800">
     <Grid Background="#FF242424" >
-        <Image Source="spiderman 2.jpg" HorizontalAlignment="Left" Height="244" Margin="332,120,0,0" VerticalAlignment="Top" Width="245"/>
-        <MediaElement Name ="Trailer" Source="Trailer2.wmv" HorizontalAlignment="Left" Height="138" Margin="49,34,0,0" VerticalAlignment="Top" Width="242"/>
+
+        <Button Content="Rent Game" HorizontalAlignment="Center" Margin="500,25,57.333,0" VerticalAlignment="Top" Width="236" Height="43" RenderTransformOrigin="0.5,0.5" FontFamily="Copperplate Gothic Bold" FontSize="16" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0D2308" Offset="0"/>
+                    <GradientStop Color="#FF2C8219" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF282727" Offset="0.503"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Gray" Offset="0"/>
+                    <GradientStop Color="#FF348B1E" Offset="1"/>
+                    <GradientStop Color="#FF212920" Offset="0.417"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <MediaElement MouseLeave="Trailer_MouseLeave" MouseEnter="Trailer_MouseEnter" MouseDown="Trailer_MouseDown" LoadedBehavior="Manual" UnloadedBehavior="Stop" x:Name ="Trailer" Source="Trailer2.wmv" HorizontalAlignment="Right" Height="230" Margin="0,25,358.333,0" VerticalAlignment="Top" Width="410"/>
+        <Button Content="Rent Exclusives" HorizontalAlignment="Center" Margin="500,211,57.333,0" VerticalAlignment="Top" Width="236" Height="43" RenderTransformOrigin="0.5,0.5" FontFamily="Copperplate Gothic Bold" FontSize="16" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0D2308" Offset="0"/>
+                    <GradientStop Color="#FF2C8219" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF282727" Offset="0.503"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Gray" Offset="0"/>
+                    <GradientStop Color="#FF348B1E" Offset="1"/>
+                    <GradientStop Color="#FF212920" Offset="0.417"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="Rent Console" HorizontalAlignment="Center" Margin="500,120,57.333,0" VerticalAlignment="Top" Width="236" Height="43" RenderTransformOrigin="0.5,0.5" FontFamily="Copperplate Gothic Bold" FontSize="16" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0D2308" Offset="0"/>
+                    <GradientStop Color="#FF2C8219" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF282727" Offset="0.503"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Gray" Offset="0"/>
+                    <GradientStop Color="#FF348B1E" Offset="1"/>
+                    <GradientStop Color="#FF212920" Offset="0.417"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Rectangle Fill="#FF373737" HorizontalAlignment="Left" Height="115" Margin="26,268,0,0" Stroke="Black" VerticalAlignment="Top" Width="668"/>
+        <TextBlock Foreground="WhiteSmoke" FontSize="18" HorizontalAlignment="Left" Margin="38,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="646"><Run Text="After eight years behind the mask, Peter Parker is a crime-fighting master. Feel the f"/><Run Text="ull p"/><Run Text="o"/><Run Text="wer of a more experienced Spider-Man"/><Run Text=" with "/><Run Text="improvisational combat, dynamic acrobatics, fluid urban traversal, and environmental interactions. A rookie no longer, this is the most masterful Spider-Man you've ever played."/></TextBlock>
+        <Image x:Name="PlayButton" MouseLeave="Trailer_MouseLeave" MouseEnter="Trailer_MouseEnter" Opacity="0.5" Source="Button.png" HorizontalAlignment="Left" Height="81" Margin="191,98,0,0" VerticalAlignment="Top" Width="87" MouseDown="Trailer_MouseDown"/>
     </Grid>
 </Window>

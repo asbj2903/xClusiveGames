@@ -119,6 +119,8 @@
     <Resource Include="uncharted.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Button.png" />
+    <Resource Include="Spiderman2.jpg" />
     <Content Include="Trailer.mp4" />
     <Content Include="Trailer2.wmv" />
   </ItemGroup>
