@@ -81,5 +81,23 @@ namespace xClusiveGames
 				TBPassword.Text = "";
 			}
 		}
+
+		private void TBPassword_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+		{
+			string TempPass = TBPassword.Text;
+			if (TempPass == "Password")
+			{
+				TBPassword.Text = "";
+			}
+		}
+
+		private void TBAccount_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+		{
+			string TempAcc = TBAccount.Text;
+			if (TempAcc == "Username")
+			{
+				TBAccount.Text = "";
+			}
+		}
 	}
 }
