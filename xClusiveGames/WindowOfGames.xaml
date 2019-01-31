@@ -5,28 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:xClusiveGames"
         mc:Ignorable="d"
-        Title="WindowOfGames" Height="1080" Width="1920">
+        Title="WindowOfGames" Height="720" Width="1280">
     <Grid Background="#FF373737">
-        <Rectangle Fill="#FF242424" HorizontalAlignment="Left" Height="320" Margin="21,71,0,0" Stroke="Black" VerticalAlignment="Top" Width="150"/>
-        <TextBox Name="search" HorizontalAlignment="Left" FontSize="16" Height="30" Margin="21,25,0,0" TextWrapping="Wrap" Text="Search..." VerticalAlignment="Top" Width="150" MouseEnter="TextBox_MouseEnter"/>
-        <Label Content="Playstation 4" HorizontalAlignment="Left" Margin="21,71,0,0" VerticalAlignment="Top" Width="100" FontFamily="Segoe UI Semibold" Foreground="White"/>
-        <Label Content="Xbox One" HorizontalAlignment="Left" Margin="21,102,0,0" VerticalAlignment="Top" Width="100" FontFamily="Segoe UI Semibold" Foreground="White"/>
-        <Label Content="Nintendo Switch" HorizontalAlignment="Left" Margin="21,133,0,0" VerticalAlignment="Top" Width="100" FontFamily="Segoe UI Semibold" Foreground="White"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="148,76,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="148,107,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="148,138,0,0" VerticalAlignment="Top"/>
-        <Rectangle Fill="#FF242424" HorizontalAlignment="Left" Height="365" Margin="193,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="580"/>
-        <Image Source="spiderman 2.jpg" HorizontalAlignment="Left" Height="150" Margin="212,45,0,0" VerticalAlignment="Top" Width="150"/>
-        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="212,172,0,0" TextWrapping="Wrap" Text="Spider-Man" VerticalAlignment="Top" Width="152" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
-        <Image Source="Red dead 2.jpg" HorizontalAlignment="Left" Height="150" Margin="382,45,0,0" VerticalAlignment="Top" Width="150"/>
-        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="382,172,0,0" TextWrapping="Wrap" Text="Red Dead Redemption 2" VerticalAlignment="Top" Width="152" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
-        <Image Source="Last of us.png" HorizontalAlignment="Left" Height="150" Margin="552,45,0,0" VerticalAlignment="Top" Width="150"/>
-        <Image Source="Shadow.jpg" HorizontalAlignment="Left" Height="151" Margin="212,215,0,0" VerticalAlignment="Top" Width="150"/>
-        <Image Source="uncharted.jpg" HorizontalAlignment="Left" Height="151" Margin="382,215,0,0" VerticalAlignment="Top" Width="150"/>
-        <Image Source="horizon.png" HorizontalAlignment="Left" Height="151" Margin="552,215,0,0" VerticalAlignment="Top" Width="150"/>
-        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="212,343,0,0" TextWrapping="Wrap" Text="Shadow of Colossus" VerticalAlignment="Top" Width="152" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
-        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="382,343,0,0" TextWrapping="Wrap" Text="Uncharted 4" VerticalAlignment="Top" Width="152" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
-        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="552,172,0,0" TextWrapping="Wrap" Text="The Last of Us" VerticalAlignment="Top" Width="152" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
-        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="552,343,0,0" TextWrapping="Wrap" Text="Horizon Zero Dawn" VerticalAlignment="Top" Width="152" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
+        <Rectangle Fill="#FF242424" HorizontalAlignment="Left" Height="523" Margin="21,99,0,0" Stroke="Black" VerticalAlignment="Top" Width="245"/>
+        <TextBox Name="search" HorizontalAlignment="Left" FontSize="16" Height="48" Margin="21,25,0,0" TextWrapping="Wrap" Text="Search..." VerticalAlignment="Top" Width="245" MouseEnter="TextBox_MouseEnter"/>
+        <Label Content="Playstation 4" HorizontalAlignment="Left" Margin="21,99,0,0" VerticalAlignment="Top" Width="163" FontFamily="Segoe UI Semibold" Foreground="White" Height="43"/>
+        <Label Content="Xbox One" HorizontalAlignment="Left" Margin="21,151,0,0" VerticalAlignment="Top" Width="163" FontFamily="Segoe UI Semibold" Foreground="White" Height="42"/>
+        <Label Content="Nintendo Switch" HorizontalAlignment="Left" Margin="21,202,0,0" VerticalAlignment="Top" Width="163" FontFamily="Segoe UI Semibold" Foreground="White" Height="40"/>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="228,108,0,0" VerticalAlignment="Top" Height="25" Width="33"/>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="228,158,0,0" VerticalAlignment="Top" Height="27" Width="33"/>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="228,210,0,0" VerticalAlignment="Top" Height="24" Width="33"/>
+        <Rectangle Fill="#FF242424" HorizontalAlignment="Left" Height="596" Margin="303,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="947"/>
+        <Image Source="spiderman 2.jpg" HorizontalAlignment="Left" Height="244" Margin="333,59,0,0" VerticalAlignment="Top" Width="245" MouseDown="Image_MouseDown"/>
+        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="333,265,0,0" TextWrapping="Wrap" Text="Spider-Man" VerticalAlignment="Top" Width="248" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
+        <Image Source="Red dead 2.jpg" HorizontalAlignment="Left" Height="244" Margin="612,59,0,0" VerticalAlignment="Top" Width="244"/>
+        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="612,265,0,0" TextWrapping="Wrap" Text="Red Dead Redemption 2" VerticalAlignment="Top" Width="247" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
+        <Image Source="Last of us.png" HorizontalAlignment="Left" Height="244" Margin="888,59,0,0" VerticalAlignment="Top" Width="245"/>
+        <Image Source="Shadow.jpg" HorizontalAlignment="Left" Height="247" Margin="333,335,0,0" VerticalAlignment="Top" Width="245"/>
+        <Image Source="uncharted.jpg" HorizontalAlignment="Left" Height="247" Margin="612,335,0,0" VerticalAlignment="Top" Width="244"/>
+        <Image Source="horizon.png" HorizontalAlignment="Left" Height="247" Margin="888,335,0,0" VerticalAlignment="Top" Width="245"/>
+        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="333,544,0,0" TextWrapping="Wrap" Text="Shadow of Colossus" VerticalAlignment="Top" Width="248" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
+        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="612,544,0,0" TextWrapping="Wrap" Text="Uncharted 4" VerticalAlignment="Top" Width="247" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
+        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="888,265,0,0" TextWrapping="Wrap" Text="The Last of Us" VerticalAlignment="Top" Width="249" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
+        <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="888,544,0,0" TextWrapping="Wrap" Text="Horizon Zero Dawn" VerticalAlignment="Top" Width="249" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
     </Grid>
 </Window>

@@ -81,5 +81,19 @@ namespace xClusiveGames
 				TBPassword.Text = "";
 			}
 		}
-	}
+
+        private void TBAccount_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            string TempPass = TBPassword.Text;
+            if (TempPass == "Password")
+            {
+                TBPassword.Text = "";
+            }
+        }
+
+        private void TBAccount_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+    }
 }
