@@ -8,6 +8,6 @@
         Title="PopUpWindow" Height="450" Width="800">
     <Grid Background="#FF242424" >
         <Image Source="spiderman 2.jpg" HorizontalAlignment="Left" Height="244" Margin="332,120,0,0" VerticalAlignment="Top" Width="245"/>
-        <MediaElement Name ="Trailer" Source="Trailer.mp4" HorizontalAlignment="Left" Height="138" Margin="49,34,0,0" VerticalAlignment="Top" Width="242"/>
+        <MediaElement Name ="Trailer" Source="Trailer2.wmv" HorizontalAlignment="Left" Height="138" Margin="49,34,0,0" VerticalAlignment="Top" Width="242"/>
     </Grid>
 </Window>
