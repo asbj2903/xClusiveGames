@@ -48,7 +48,7 @@ namespace xClusiveGames
             string TempPassName;
 
             TempAccName = TBAccount.Text;
-            TempPassName = TBPassword.Text;
+            TempPassName = TBPassword.Password;
 
             Account account = new Account(TempAccName, TempPassName);
 
@@ -66,10 +66,10 @@ namespace xClusiveGames
 		}
 		private void TBPassword_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
 		{
-			string TempPass = TBPassword.Text;
+			string TempPass = TBPassword.Password;
 			if (TempPass == "Password")
 			{
-				TBPassword.Text = "";
+				TBPassword.Password = "";
 			}
 		}
 
@@ -79,6 +79,30 @@ namespace xClusiveGames
 			if (TempAcc == "Username")
 			{
 				TBAccount.Text = "";
+			}
+		}
+
+		private void TBPassword_StylusEnter(object sender, StylusEventArgs e)
+		{
+			string TempAccName;
+			string TempPassName;
+
+			TempAccName = TBAccount.Text;
+			TempPassName = TBPassword.Password;
+			if (TempAccName == "AdminBo" && TempPassName == "1234")
+			{
+				WindowOfGames NewWindow = new WindowOfGames();
+				NewWindow.Show();
+				this.Close();
+			}
+		}
+
+		private void PasswordBox_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+		{
+			string TempPass = TBPassword.Password;
+			if (TempPass == "Password")
+			{
+				TBPassword.Password = "";
 			}
 		}
 	}
