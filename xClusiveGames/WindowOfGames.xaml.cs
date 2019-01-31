@@ -34,7 +34,8 @@ namespace xClusiveGames
 
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            
+            Window PopUp = new PopUpWindow();
+            PopUp.Show();
         }
     }
 }
