@@ -9,7 +9,6 @@ namespace xClusiveGames
 	public class AccountsRepo
 	{
 		List<Account> AccountList = new List<Account>();
-
 		public void AddAccount(string AccInfo, string PassInfo)
 		{
 		

@@ -31,5 +31,10 @@ namespace xClusiveGames
                 search.Text = "";
             }
         }
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            
+        }
     }
 }
