@@ -64,21 +64,21 @@ namespace xClusiveGames
 		{
 			System.Diagnostics.Process.Start("http://google.com");
 		}
-		private void TBAccount_MouseEnter(object sender, MouseEventArgs e)
-		{
-			string TempAcc = TBAccount.Text;
-			if (TempAcc == "Username")
-			{
-				TBAccount.Text = "";
-			}
-		}
-
-		private void TBPassword_MouseEnter(object sender, MouseEventArgs e)
+		private void TBPassword_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
 		{
 			string TempPass = TBPassword.Text;
 			if (TempPass == "Password")
 			{
 				TBPassword.Text = "";
+			}
+		}
+
+		private void TBAccount_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+		{
+			string TempAcc = TBAccount.Text;
+			if (TempAcc == "Username")
+			{
+				TBAccount.Text = "";
 			}
 		}
 
