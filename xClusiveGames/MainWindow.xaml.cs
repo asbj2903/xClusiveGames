@@ -57,7 +57,7 @@ namespace xClusiveGames
                 WindowOfGames NewWindow = new WindowOfGames();
                 NewWindow.Show();
                 this.Close();
-            }
+            } 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
