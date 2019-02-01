@@ -6,16 +6,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:xClusiveGames"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="1000">
+        Title="MainWindow" Height="720" Width="1280">
 
     <Grid Background="#FF373737" RenderTransformOrigin="0.984,0.042"
           
           
           
           >
-        <Label Content="ClusiveGames" HorizontalAlignment="Center" Margin="349,61,328.6,0" VerticalAlignment="Top" FontSize="36" FontFamily="Copperplate Gothic Bold" Foreground="White" Width="316"/>
-        <Button Content="FORGOT YOUR PASSWORD?" HorizontalAlignment="Center" Margin="421,196,438.6,0" VerticalAlignment="Top" Width="134" Background="#00FFFFFF" Foreground="White" FontSize="10" BorderBrush="#00FFFFFF" Height="22" Click="Button_Click_1"/>
-        <Button Content="LOGIN" HorizontalAlignment="Center" Margin="259,223,283.6,0" VerticalAlignment="Top" Width="251" Height="43" RenderTransformOrigin="0.5,0.5" FontFamily="Copperplate Gothic Bold" FontSize="16" Foreground="White" Click="Button_Click">
+        <Label Content="ClusiveGames" HorizontalAlignment="Center" Margin="489,171,468.333,0" VerticalAlignment="Top" FontSize="36" FontFamily="Copperplate Gothic Bold" Foreground="White" Width="316"/>
+        <Button Content="FORGOT YOUR PASSWORD?" HorizontalAlignment="Center" Margin="561,306,578.333,0" VerticalAlignment="Top" Width="134" Background="#00FFFFFF" Foreground="White" FontSize="10" BorderBrush="#00FFFFFF" Height="22" Click="Button_Click_1"/>
+        <Button Content="LOGIN" HorizontalAlignment="Center" Margin="499,333,523.333,0" VerticalAlignment="Top" Width="251" Height="43" RenderTransformOrigin="0.5,0.5" FontFamily="Copperplate Gothic Bold" FontSize="16" Foreground="White" Click="Button_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF0D2308" Offset="0"/>
@@ -36,11 +36,11 @@
                 </LinearGradientBrush>
             </Button.OpacityMask>
         </Button>
-        <TextBox x:Name="TBAccount" HorizontalAlignment="Center" Height="24" Margin="326,110,347.6,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="120" BorderBrush="#00FFFFFF" GotKeyboardFocus="TBAccount_GotKeyboardFocus"/>
-        <PasswordBox x:Name="TBPassword" HorizontalAlignment="Center" Margin="426,139,447.6,0" VerticalAlignment="Top" Width="120" Height="23" Password="Password"  GotKeyboardFocus="PasswordBox_GotKeyboardFocus"/>
-        <Label Content="REMEMBER ME" HorizontalAlignment="Center" Margin="421,167,494.6,0" VerticalAlignment="Top" Foreground="White" FontSize="10" RenderTransformOrigin="0.554,1.808"/>
-        <Label Content="X" HorizontalAlignment="Center" Margin="322,61,616.6,0" VerticalAlignment="Top" FontSize="36" FontFamily="Copperplate Gothic Bold" Foreground="Red" Width="55"/>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Center" Margin="499,172,478.6,0" VerticalAlignment="Top" Height="19" Width="16"/>
+        <TextBox x:Name="TBAccount" HorizontalAlignment="Center" Height="24" Margin="566,220,587.333,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="120" BorderBrush="#00FFFFFF" GotKeyboardFocus="TBAccount_GotKeyboardFocus"/>
+        <PasswordBox x:Name="TBPassword" HorizontalAlignment="Center" Margin="566,249,587.333,0" VerticalAlignment="Top" Width="120" Height="23" Password="Password"  GotKeyboardFocus="PasswordBox_GotKeyboardFocus"/>
+        <Label Content="REMEMBER ME" HorizontalAlignment="Center" Margin="561,277,634.333,0" VerticalAlignment="Top" Foreground="White" FontSize="10" RenderTransformOrigin="0.554,1.808"/>
+        <Label Content="X" HorizontalAlignment="Center" Margin="462,171,756.333,0" VerticalAlignment="Top" FontSize="36" FontFamily="Copperplate Gothic Bold" Foreground="Red" Width="55"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Center" Margin="639,282,618.333,0" VerticalAlignment="Top" Height="19" Width="16"/>
 
 
     </Grid>
