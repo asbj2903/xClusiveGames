@@ -37,5 +37,65 @@ namespace xClusiveGames
             Window PopUp = new PopUpWindow();
             PopUp.Show();
         }
+
+        private void SpidermanLogo_MouseEnter(object sender, MouseEventArgs e)
+        {
+            SpidermanLogo.Opacity = 0.7;
+        }
+
+        private void SpidermanLogo_MouseLeave(object sender, MouseEventArgs e)
+        {
+            SpidermanLogo.Opacity = 1;
+        }
+
+        private void RedDeadLogo_MouseEnter(object sender, MouseEventArgs e)
+        {
+            RedDeadLogo.Opacity = 0.7;
+        }
+
+        private void RedDeadLogo_MouseLeave(object sender, MouseEventArgs e)
+        {
+            RedDeadLogo.Opacity = 1;
+        }
+
+        private void TheLastLogo_MouseEnter(object sender, MouseEventArgs e)
+        {
+            TheLastLogo.Opacity = 0.7;
+        }
+
+        private void TheLastLogo_MouseLeave(object sender, MouseEventArgs e)
+        {
+            TheLastLogo.Opacity = 1;
+        }
+
+        private void ShadowLogo_MouseEnter(object sender, MouseEventArgs e)
+        {
+            ShadowLogo.Opacity = 0.7;
+        }
+
+        private void ShadowLogo_MouseLeave(object sender, MouseEventArgs e)
+        {
+            ShadowLogo.Opacity = 1;
+        }
+
+        private void UnchartedLogo_MouseEnter(object sender, MouseEventArgs e)
+        {
+            UnchartedLogo.Opacity = 0.7;
+        }
+
+        private void UnchartedLogo_MouseLeave(object sender, MouseEventArgs e)
+        {
+            UnchartedLogo.Opacity = 1;
+        }
+
+        private void HorizonLogo_MouseEnter(object sender, MouseEventArgs e)
+        {
+            HorizonLogo.Opacity = 0.7;
+        }
+
+        private void HorizonLogo_MouseLeave(object sender, MouseEventArgs e)
+        {
+            HorizonLogo.Opacity = 1;
+        }
     }
 }
