@@ -72,8 +72,8 @@
                 </LinearGradientBrush>
             </Button.OpacityMask>
         </Button>
-        <Rectangle Fill="#FF373737" HorizontalAlignment="Left" Height="115" Margin="26,268,0,0" Stroke="Black" VerticalAlignment="Top" Width="668"/>
-        <TextBlock Foreground="WhiteSmoke" FontSize="18" HorizontalAlignment="Left" Margin="38,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="646"><Run Text="After eight years behind the mask, Peter Parker is a crime-fighting master. Feel the f"/><Run Text="ull p"/><Run Text="o"/><Run Text="wer of a more experienced Spider-Man"/><Run Text=" with "/><Run Text="improvisational combat, dynamic acrobatics, fluid urban traversal, and environmental interactions. A rookie no longer, this is the most masterful Spider-Man you've ever played."/></TextBlock>
+        <Rectangle Fill="#FF373737" HorizontalAlignment="Left" Height="115" Margin="23,268,0,0" Stroke="Black" VerticalAlignment="Top" Width="668"/>
+        <TextBlock Foreground="WhiteSmoke" FontSize="18" HorizontalAlignment="Left" Margin="35,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="646"><Run Text="After eight years behind the mask, Peter Parker is a crime-fighting master. Feel the f"/><Run Text="ull p"/><Run Text="o"/><Run Text="wer of a more experienced Spider-Man"/><Run Text=" with "/><Run Text="improvisational combat, dynamic acrobatics, fluid urban traversal, and environmental interactions. A rookie no longer, this is the most masterful Spider-Man you've ever played."/></TextBlock>
         <Image x:Name="PlayButton" MouseLeave="Trailer_MouseLeave" MouseEnter="Trailer_MouseEnter" Opacity="0.5" Source="Button.png" HorizontalAlignment="Left" Height="81" Margin="191,98,0,0" VerticalAlignment="Top" Width="87" MouseDown="Trailer_MouseDown"/>
     </Grid>
 </Window>
