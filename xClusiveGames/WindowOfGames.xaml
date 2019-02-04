@@ -29,5 +29,6 @@
         <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="612,544,0,0" TextWrapping="Wrap" Text="Uncharted 4" VerticalAlignment="Top" Width="247" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
         <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="888,265,0,0" TextWrapping="Wrap" Text="The Last of Us" VerticalAlignment="Top" Width="249" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
         <TextBox Background="#FF373737" Foreground="White" TextAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="888,544,0,0" TextWrapping="Wrap" Text="Horizon Zero Dawn" VerticalAlignment="Top" Width="249" Opacity="0.75" FontFamily="Segoe UI Semibold"/>
+        
     </Grid>
 </Window>
